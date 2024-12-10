@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\itzel\\source\\repos\\GestiApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C589BEE6-9124-4665-9D98-FCBFFF34BC83}|GestiApp\\GestiApp.csproj|c:\\users\\itzel\\source\\repos\\gestiapp\\gestiapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C589BEE6-9124-4665-9D98-FCBFFF34BC83}|GestiApp\\GestiApp.csproj|solutionrelative:gestiapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C589BEE6-9124-4665-9D98-FCBFFF34BC83}|GestiApp\\GestiApp.csproj|c:\\users\\itzel\\source\\repos\\gestiapp\\gestiapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C589BEE6-9124-4665-9D98-FCBFFF34BC83}|GestiApp\\GestiApp.csproj|solutionrelative:gestiapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C589BEE6-9124-4665-9D98-FCBFFF34BC83}|GestiApp\\GestiApp.csproj|c:\\users\\itzel\\source\\repos\\gestiapp\\gestiapp\\pages\\listado.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C589BEE6-9124-4665-9D98-FCBFFF34BC83}|GestiApp\\GestiApp.csproj|solutionrelative:gestiapp\\pages\\listado.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C589BEE6-9124-4665-9D98-FCBFFF34BC83}|GestiApp\\GestiApp.csproj|c:\\users\\itzel\\source\\repos\\gestiapp\\gestiapp\\services\\serviciotarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C589BEE6-9124-4665-9D98-FCBFFF34BC83}|GestiApp\\GestiApp.csproj|solutionrelative:gestiapp\\services\\serviciotarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C589BEE6-9124-4665-9D98-FCBFFF34BC83}|GestiApp\\GestiApp.csproj|c:\\users\\itzel\\source\\repos\\gestiapp\\gestiapp\\pages\\listado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C589BEE6-9124-4665-9D98-FCBFFF34BC83}|GestiApp\\GestiApp.csproj|solutionrelative:gestiapp\\pages\\listado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C589BEE6-9124-4665-9D98-FCBFFF34BC83}|GestiApp\\GestiApp.csproj|c:\\users\\itzel\\source\\repos\\gestiapp\\gestiapp\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C589BEE6-9124-4665-9D98-FCBFFF34BC83}|GestiApp\\GestiApp.csproj|solutionrelative:gestiapp\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\itzel\\source\\repos\\GestiApp\\GestiApp\\Program.cs",
+              "RelativeDocumentMoniker": "GestiApp\\Program.cs",
+              "ToolTip": "C:\\Users\\itzel\\source\\repos\\GestiApp\\GestiApp\\Program.cs",
+              "RelativeToolTip": "GestiApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T16:27:44.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\itzel\\source\\repos\\GestiApp\\GestiApp\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "GestiApp\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\itzel\\source\\repos\\GestiApp\\GestiApp\\Pages\\Index.cshtml",
+              "RelativeToolTip": "GestiApp\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T16:15:22.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Listado.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\itzel\\source\\repos\\GestiApp\\GestiApp\\Pages\\Listado.cshtml.cs",
+              "RelativeDocumentMoniker": "GestiApp\\Pages\\Listado.cshtml.cs",
+              "ToolTip": "C:\\Users\\itzel\\source\\repos\\GestiApp\\GestiApp\\Pages\\Listado.cshtml.cs",
+              "RelativeToolTip": "GestiApp\\Pages\\Listado.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T16:14:26.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServicioTarea.cs",
+              "DocumentMoniker": "C:\\Users\\itzel\\source\\repos\\GestiApp\\GestiApp\\Services\\ServicioTarea.cs",
+              "RelativeDocumentMoniker": "GestiApp\\Services\\ServicioTarea.cs",
+              "ToolTip": "C:\\Users\\itzel\\source\\repos\\GestiApp\\GestiApp\\Services\\ServicioTarea.cs",
+              "RelativeToolTip": "GestiApp\\Services\\ServicioTarea.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T16:06:59.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Listado.cshtml",
+              "DocumentMoniker": "C:\\Users\\itzel\\source\\repos\\GestiApp\\GestiApp\\Pages\\Listado.cshtml",
+              "RelativeDocumentMoniker": "GestiApp\\Pages\\Listado.cshtml",
+              "ToolTip": "C:\\Users\\itzel\\source\\repos\\GestiApp\\GestiApp\\Pages\\Listado.cshtml",
+              "RelativeToolTip": "GestiApp\\Pages\\Listado.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T16:13:39.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\itzel\\source\\repos\\GestiApp\\GestiApp\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "GestiApp\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\itzel\\source\\repos\\GestiApp\\GestiApp\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "GestiApp\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T16:17:34.112Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

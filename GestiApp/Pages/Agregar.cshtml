@@ -1,0 +1,24 @@
+﻿@page
+@model GestiApp.Pages.AgregarModel
+
+<div class="container mt-5 shadow-lg p-4 rounded" style="background-color: darkgray;">
+    <h2 class="text-center text-dark mb-4">Agregar Tarea</h2>
+
+    <form method="post">
+
+        <div class="mb-3">
+            <label for="nombreTarea" class="form-label fw-bold">Nombre de la Tarea</label>
+            <input type="text" class="form-control" id="nombreTarea" name="NuevaTarea.Nombre" placeholder="Escribe el nombre de la tarea" required>
+        </div>
+
+
+        <div class="mb-3">
+            <label for="fechaInicio" class="form-label fw-bold">Fecha de Inicio</label>
+            <input type="date" class="form-control" id="fechaInicio" name="NuevaTarea.FechaInicio" required>
+        </div>
+
+        <div class="text-end">
+            <button type="submit" class="btn btn-dark">Guardar Tarea</button>
+        </div>
+    </form>
+</div>

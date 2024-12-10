@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dVvbdd1g9J0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\itzel\\source\\repos\\GestiApp\\GestiApp\\GestiApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\itzel\\.nuget\\packages\\bootstrap\\5.3.3\\bootstrap.5.3.3.nupkg.sha512"
+  ],
+  "logs": []
+}

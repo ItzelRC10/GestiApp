@@ -1,0 +1,38 @@
+﻿@page "/Editar/{id:int}"
+@model GestiApp.Pages.EditarModel
+
+<div class="container mt-5 shadow-lg p-4 rounded" style="background-color: darkgrey;">
+    <h2 class="text-center text-dark mb-4">Editar Tarea</h2>
+
+    <!-- Mostrar mensaje de confirmación si el cambio fue guardado -->
+    @if (Model.Guardado)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <strong>¡Éxito!</strong> Los cambios se han guardado correctamente.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    <!-- Formulario para editar la tarea -->
+    <form method="post">
+
+        <input type="hidden" name="Tarea.Id" value="@Model.Tarea.Id" />
+
+
+        <div class="mb-3">
+            <label for="nombreTarea" class="form-label fw-bold">Nombre de la Tarea</label>
+            <input type="text" class="form-control" id="nombreTarea" name="Tarea.Nombre" value="@Model.Tarea.Nombre" placeholder="Editar nombre de la tarea" required>
+        </div>
+
+
+        <div class="mb-3">
+            <label for="fechaInicio" class="form-label fw-bold">Fecha de Inicio</label>
+            <input type="date" class="form-control" id="fechaInicio" name="Tarea.FechaInicio" value="@Model.Tarea.FechaInicio.ToString("yyyy-MM-dd")" required>
+        </div>
+
+
+        <div class="text-end">
+            <button type="submit" class="btn btn-dark">Guardar Cambios</button>
+        </div>
+    </form>
+</div>

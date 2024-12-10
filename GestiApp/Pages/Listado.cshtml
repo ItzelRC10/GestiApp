@@ -1,0 +1,60 @@
+﻿@page
+@model GestiApp.Pages.ListadoModel
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4 text-dark fw-bold">Lista de Tareas</h2>
+
+    <!-- Mostrar Mensajes -->
+    @if (TempData["Mensaje"] != null)
+    {
+        <div class="alert alert-info alert-dismissible fade show" role="alert">
+            @TempData["Mensaje"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    <table class="table table-hover align-middle shadow-lg rounded">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Nombre</th>
+                <th>Fecha de Inicio</th>
+                <th>Estado</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var tarea in Model.Tareas)
+            {
+                <tr>
+                    <td>@tarea.Id</td>
+                    <td>@tarea.Nombre</td>
+                    <td>@tarea.FechaInicio.ToString("dd/MM/yyyy")</td>
+                    <td>@(tarea.Completada ? "Completada" : "Pendiente")</td>
+                    <td>
+                        <!-- Botón Completar -->
+                        <form method="post" asp-page-handler="Completar" class="d-inline">
+                            <input type="hidden" name="id" value="@tarea.Id" />
+                            <button type="submit" class="btn btn-success btn-sm" title="Completar">
+                                <i class="bi bi-check-circle"></i>
+                            </button>
+                        </form>
+
+                        <!-- Botón Eliminar -->
+                        <form method="post" asp-page-handler="Eliminar" class="d-inline">
+                            <input type="hidden" name="id" value="@tarea.Id" />
+                            <button type="submit" class="btn btn-danger btn-sm" title="Eliminar">
+                                <i class="bi bi-trash"></i>
+                            </button>
+                        </form>
+
+                        <!-- Botón Editar -->
+                        <a class="btn btn-primary btn-sm" title="Editar Tarea" href="/Editar/@tarea.Id">
+                            <i class="bi bi-pencil-fill"></i>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
